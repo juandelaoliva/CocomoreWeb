@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icons-general/icon-prev</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons-general/icon-prev">
+            <g id="Zurück" transform="translate(2.000000, 2.000000)">
+                <path d="M30,0 C46.5676056,0 60,13.4323944 60,30 C60,46.5676056 46.5676056,60 30,60 C13.4323944,60 0,46.5676056 0,30 C0,13.4323944 13.4323944,0 30,0 Z" id="Stroke-1" stroke="#007EBC" stroke-width="3" fill="#FFFFFF"></path>
+                <path d="M36.9999337,42.0824709 C37.0042615,41.5579625 36.7965269,41.0549503 36.4243357,40.6852148 L25.7346593,29.9843833 L36.4243357,19.3222449 C37.1903571,18.5612778 37.1903571,17.3273932 36.4243357,16.5707253 C35.6583144,15.8097582 34.4162346,15.8097582 33.654541,16.5707253 L21.5799673,28.6086235 C20.8139459,29.3609921 20.8052903,30.5819789 21.562656,31.342946 C21.5684264,31.3486784 25.5990548,35.3383818 33.654541,43.3120562 C34.0007654,43.7247841 34.4984629,43.9698413 35.0394384,43.9999361 C36.1170616,44.0085346 36.9912781,43.1486847 36.9999337,42.0824709 Z" id="Fill-3" fill="#007EBC"></path>
+            </g>
+        </g>
+    </g>
+</svg>

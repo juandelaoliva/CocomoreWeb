@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-sitckynavi/sorten-sticky-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-12.0%" y="-9.1%" width="124.0%" height="118.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="0.0356116923 0.0246030151 6.63982667 0.0246030151 6.63982667 6.57645025 0.0356116923 6.57645025"></polygon>
+    </defs>
+    <g id="icon-sitckynavi/sorten-sticky-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page-1-Copy-3" filter="url(#filter-1)" transform="translate(12.000000, 9.000000)">
+            <g id="Group-3" transform="translate(17.000000, 0.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M6.38359938,4.9423598 L2.03239938,0.30600469 C1.78207221,0.0402492462 1.15386708,-0.052159464 0.827552205,0.0932073702 C0.500282462,0.2384134 0.0356116923,0.565006365 0.0356116923,0.942306198 L0.0356116923,5.3984536 C0.0356116923,5.9143129 0.724074256,6.57645025 1.20774195,6.57645025 L5.76484246,6.57645025 C6.11859733,6.57645025 6.437424,6.32302312 6.57361887,5.97279196 C6.70885887,5.62481206 6.63272041,5.2103665 6.38359938,4.9423598" id="Fill-1" fill="#FFFFFF" mask="url(#mask-3)"></path>
+            </g>
+            <path d="M15.8738275,21.9947528 C15.1274143,24.8178505 11.3651908,25.7082857 10.7724428,25.6578157 C10.1795287,25.606144 10.5665967,28.5061484 10.7724428,28.8871314 C10.9792848,29.2692615 9.27850967,29.2451735 9.27850967,29.2451735 C9.27850967,29.2451735 8.07170967,20.0071413 11.1327286,16.0939678 C12.2325662,14.6892193 6.69990084,17.4537631 7.68110024,25.1999806 C7.68110024,25.1999806 5.42332346,24.7466245 4.84551588,22.0452774 C3.53186408,15.8919786 8.71110506,14.0339832 10.952558,12.0246324 C13.1939557,10.0163194 13.1428262,9.68460469 13.3229968,9.531993 C13.503278,9.37943593 13.788087,10.3972477 14.0182251,11.134088 C14.2507979,11.8730585 16.6213473,19.1717097 15.8738275,21.9947528 M14.285659,7.1725748 L14.285659,1.27168058 L3.99927843,1.27168058 C2.34725339,1.27168058 0,0.327225075 0,1.96018106 L0,27.8772943 C0,29.5090486 2.34725339,33 3.99927843,33 L23.1863416,33 C24.8395286,33 25,29.5090486 25,27.8772943 L25,10.6726479 L18.3337981,10.6726479 C17.2619048,10.6726479 14.285659,8.23058782 14.285659,7.1725748" id="Fill-4" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-sitckynavi/uebersicht-sticky-icon </title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-8.8%" y="-8.3%" width="120.6%" height="119.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="0.0486278716 0.143159231 15.3665695 0.143159231 15.3665695 16.2847522 0.0486278716 16.2847522"></polygon>
+        <polygon id="path-4" points="3.24185811e-05 0.0636439949 15.3180463 0.0636439949 15.3180463 16.2211082 3.24185811e-05 16.2211082"></polygon>
+        <polygon id="path-6" points="0.0486278716 0.0636439949 15.3665695 0.0636439949 15.3665695 16.2211082 0.0486278716 16.2211082"></polygon>
+    </defs>
+    <g id="icon-sitckynavi/uebersicht-sticky-icon-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page-1-Copy" filter="url(#filter-1)" transform="translate(8.000000, 7.000000)">
+            <path d="M13.5736259,0 L1.88068311,0 C0.85039584,0 0,0.907980296 0,2.0105278 L0,14.4466151 C0,15.5491626 0.85039584,16.4571429 1.88068311,16.4571429 L13.5899797,16.4571429 C14.6366207,16.4571429 15.4706628,15.5653765 15.454309,14.462829 L15.454309,2.0105278 C15.454309,0.907980296 14.6039132,0 13.5736259,0" id="Fill-1" fill="#FFFFFF"></path>
+            <g id="Group-5" transform="translate(18.545455, 0.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Clip-4"></g>
+                <path d="M13.502339,0.143159231 L1.91269628,0.143159231 C0.89151098,0.143159231 0.0486278716,1.03372987 0.0486278716,2.11513709 L0.0486278716,14.3127743 C0.0486278716,15.3941815 0.89151098,16.2847522 1.91269628,16.2847522 L13.5185483,16.2847522 C14.5397336,16.2847522 15.3826167,15.4100846 15.3664074,14.3286773 L15.3664074,2.11513709 C15.3664074,1.03372987 14.5235243,0.143159231 13.502339,0.143159231" id="Fill-3" fill="#FFFFFF" mask="url(#mask-3)"></path>
+            </g>
+            <g id="Group-8" transform="translate(0.000000, 19.542857)">
+                <mask id="mask-5" fill="white">
+                    <use xlink:href="#path-4"></use>
+                </mask>
+                <g id="Clip-7"></g>
+                <path d="M13.4537436,0.0636439949 L1.86410083,0.0636439949 C0.842915527,0.0636439949 3.24185811e-05,0.954214639 3.24185811e-05,2.03546282 L3.24185811e-05,14.2491621 C3.24185811e-05,15.3305693 0.842915527,16.22114 1.86410083,16.22114 L13.4699529,16.22114 C14.5073475,16.22114 15.3340213,15.3305693 15.317812,14.2491621 L15.317812,2.03546282 C15.317812,0.954214639 14.4749289,0.0636439949 13.4537436,0.0636439949" id="Fill-6" fill="#FFFFFF" mask="url(#mask-5)"></path>
+            </g>
+            <g id="Group-11" transform="translate(18.545455, 19.542857)">
+                <mask id="mask-7" fill="white">
+                    <use xlink:href="#path-6"></use>
+                </mask>
+                <g id="Clip-10"></g>
+                <path d="M13.502339,0.0636439949 L1.91269628,0.0636439949 C0.89151098,0.0636439949 0.0486278716,0.954214639 0.0486278716,2.03546282 L0.0486278716,14.2491621 C0.0486278716,15.3305693 0.89151098,16.22114 1.91269628,16.22114 L13.5185483,16.22114 C14.5397336,16.22114 15.3826167,15.3305693 15.3664074,14.2491621 L15.3664074,2.03546282 C15.3664074,0.954214639 14.5235243,0.0636439949 13.502339,0.0636439949" id="Fill-9" fill="#FFFFFF" mask="url(#mask-7)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

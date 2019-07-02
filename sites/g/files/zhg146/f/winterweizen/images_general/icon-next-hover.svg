@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icons-general/icon-next-hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons-general/icon-next-hover">
+            <g id="Group" transform="translate(2.000000, 2.000000)">
+                <g id="Zurück" transform="translate(30.000000, 30.000000) scale(-1, 1) translate(-30.000000, -30.000000) ">
+                    <path d="M30,0 C46.5676056,0 60,13.4323944 60,30 C60,46.5676056 46.5676056,60 30,60 C13.4323944,60 0,46.5676056 0,30 C0,13.4323944 13.4323944,0 30,0 Z" id="Stroke-1" stroke="#016799" stroke-width="4" fill="#FFFFFF"></path>
+                    <path d="M35.1126778,43.8822885 C36.1823774,43.8909592 37.0501658,43.0238837 37.0587577,41.9487101 C37.0630537,41.4197941 36.8568466,40.9125549 36.4873921,40.5397124 L25.8763162,29.7489579 L36.4873921,18.9972218 C37.2477809,18.22986 37.2477809,16.9856066 36.4873921,16.2225802 C35.7270033,15.4552184 34.4940564,15.4552184 33.7379635,16.2225802 L21.7521734,28.3616371 C20.9917845,29.1203282 20.9831926,30.3515754 21.7349895,31.1189372 C21.7435814,31.1276079 21.7478774,31.1319433 21.7521734,31.1362787 L33.7379635,43.1886281 C34.0816421,43.6048243 34.5756801,43.8519408 35.1126778,43.8822885" id="Fill-3" fill="#016799"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
