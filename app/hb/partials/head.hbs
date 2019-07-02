@@ -1,0 +1,26 @@
+<head>
+    <title>{{pageTitle}}</title>
+
+    {{#each data.head.metatags}}
+        {{{this}}}
+    {{/each}}
+    {{#each head.metatags}}
+        {{{this}}}
+    {{/each}}
+
+    {{#each data.head.js}}
+        {{{this}}}
+    {{/each}}
+    {{#each head.js}}
+        {{{this}}}
+    {{/each}}
+
+    {{#each data.head.css}}
+        {{{this}}}
+    {{/each}}
+
+    {{#each head.css}}
+        {{{this}}}
+    {{/each}}
+
+</head>

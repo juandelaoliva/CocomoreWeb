@@ -1,0 +1,26 @@
+{
+    "pageID": "example-page-2",
+    "pageTitle": "Example page 2",
+    "sections": [
+        {
+            "id": "section0",
+            "optional_classes": "",
+            "container": "false",
+            "type": "content-headline-primary",
+            "content": {
+                "title_main": "Example Page 2",
+                "title_sub": "Lorem Ipsum dolor.",
+                "title_icon": "page-1"
+            }
+        },
+        {
+            "id": "section1",
+            "optional_classes": "",
+            "container": "false",
+            "type": "content-text-fullwidth",
+            "content": {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel ipsum neque. Aenean efficitur vitae est ut hendrerit. Fusce convallis dolor ac quam vestibulum pharetra. Curabitur nec mollis velit, in auctor nunc. Duis arcu quam, malesuada sed mauris quis, faucibus dignissim nisi. Duis ipsum ipsum, suscipit ac odio in, pharetra congue magna. Sed pharetra semper tortor eu eleifend.Aliquam molestie odio vitae tincidunt viverra. Pellentesque a odio congue, aliquam est eu, pulvinar nisi. <br />Nulla nec pulvinar urna. Vestibulum auctor ligula id neque dignissim, quis pellentesque ante condimentum. Maecenas sed justo a risus dapibus dignissim sed id diam. Curabitur nec mattis quam. Proin tincidunt non nulla at bibendum. Morbi nec commodo sem. Nam fermentum fringilla lectus, vel congue dui venenatis at. Nam a lectus vel nunc pharetra fermentum sed non tortor. Proin dignissim elit vitae massa molestie fringilla. Morbi efficitur lectus a odio ullamcorper, non blandit nisl congue."
+            }
+        }
+    ]
+}

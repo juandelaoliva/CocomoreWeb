@@ -1,0 +1,14 @@
+.content-text-imagetext {
+  @include clearfix;
+
+  .textblock-text {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+  }
+
+  .textblock-image {
+    float: right;
+    width: 50%;
+  }
+}

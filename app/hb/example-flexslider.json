@@ -1,0 +1,41 @@
+{
+  "pageID": "example-flexslider",
+  "pageTitle": "Example FlexSlider",
+  "sections": [
+    {
+      "id": "example-flexslider_content-headline-primary",
+      "optional_classes": "",
+      "type": "content-headline-primary",
+      "content": {
+        "title_main": "FlexSlider 2 example",
+        "title_sub": "A demo of FlexSlider2",
+        "title_icon": "example-flexslider_content-headline-primary"
+      }
+    },
+    {
+      "id": "example-flexslider_content-flexslider",
+      "optional_classes": "",
+      "type": "content-flexslider",
+      "content": {
+        "slides": [
+          {
+            "title": "slide 1",
+            "image_url": "https://dummyimage.com/500x300/000/ffffff.png&text=1"
+          },
+          {
+            "title": "slide 2",
+            "image_url": "https://dummyimage.com/500x300/000/ffffff.png&text=2"
+          },
+          {
+            "title": "slide 3",
+            "image_url": "https://dummyimage.com/500x300/000/ffffff.png&text=3"
+          },
+          {
+            "title": "slide 4",
+            "image_url": "https://dummyimage.com/500x300/000/ffffff.png&text=4"
+          }
+        ]
+      }
+    }
+  ]
+}

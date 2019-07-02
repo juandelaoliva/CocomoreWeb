@@ -1,0 +1,23 @@
+<section {{#if content.id}}id="{{content.id}}"{{/if}} class="content-headline-primary {{#if content.optional_classes}}{{content.optional_classes}}{{/if}}">
+    <h1>{{{content.title_main}}}</h1>
+    <span>{{{content.title_sub}}}</span>
+</section>
+
+
+{{!
+
+JSON USEAGE:
+
+{
+    "id": "content-headline-primary",
+    "optional_classes": "",
+    "type": "content-headline-primary",
+    "content": {
+        "title_main": "Lorem Ipsum",
+        "title_sub": "Lorem Ipsum dolor.",
+        "title_icon": "page-1"
+    }
+}
+
+
+}}

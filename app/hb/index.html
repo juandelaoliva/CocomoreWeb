@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+{{#> head}}
+head not there
+{{/head}}
+
+<body>
+  <div class="master_container">
+  <header class="header cf" role="banner">
+    <div class="main__container">
+
+        {{#> navigation-main active_navpoint=true}}
+        navigation-main not there
+        {{/navigation-main}}
+        
+    </div>
+  </header>
+
+  <div class="coco-main__wrapper">
+    <main class="main main--sub" role="main">
+      <div class="main__container">
+
+          {{#each sections}}
+          {{> (lookup . 'type') }}
+          {{/each}}
+
+      </div>
+    </main>
+  </div>
+  {{#> footer}}
+  footer not found
+  {{/footer}}
+</div>
+</body>
+
+</html>

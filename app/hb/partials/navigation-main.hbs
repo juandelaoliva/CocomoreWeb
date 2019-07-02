@@ -1,0 +1,118 @@
+{{! nq }}
+<img src="{{img_url data.main_nav.logo_url}}" alt="{{data.main_nav.logo_alt}}" class="logo">
+
+<nav class="nav swiper-container {{#if data.main_nav.optional_classes}}{{data.main_nav.optional_classes}}{{/if}}"
+     role="navigation">
+    <div class="main__container swiper-wrapper">
+        {{#if data.isdevelop}}
+            <div class="swiper-slide nav__items">
+
+                {{#each data.main_nav.navpoints}}
+                    <div class="nav__item {{#ifCond this.navpoint_name '=='
+                                                    @local.pageID}} nav__item--active{{/ifCond}}">
+                        <a href="{{this.navpoint_dev_url}}">{{this.navpoint_title}}</a>
+                    </div>
+                {{/each}}
+            </div>
+
+
+            <div class="swiper-slide">
+                {{#each data.main_nav.swipernavpoints}}
+                    <div class="nav__item {{#ifCond this.navpoint_name '==' @local.pageID}} nav__item--active{{/ifCond}}">
+                        <a href="{{this.navpoint_dev_url}}">{{this.navpoint_title}}</a>
+                    </div>
+                {{/each}}
+            </div>
+
+        {{else}}
+
+            <div class="swiper-slide nav__items">
+
+                {{#each data.main_nav.navpoints}}
+                    <div class="nav__item {{#ifCond this.navpoint_name '=='
+                                                    @local.pageID}} nav__item--active{{/ifCond}}">
+                        <a href="{{this.navpoint_url}}">{{this.navpoint_title}}</a>
+                    </div>
+                {{/each}}
+            </div>
+
+            <div class="swiper-slide">
+                {{#each data.main_nav.swipernavpoints}}
+                    <div class="nav__item {{#ifCond this.navpoint_name '=='
+                                                    @local.pageID}} nav__item--active{{/ifCond}}">
+                        <a href="{{this.navpoint_url}}">{{this.navpoint_title}}</a>
+                    </div>
+                {{/each}}
+            </div>
+
+        {{/if}}
+
+
+    </div>
+</nav>
+{{! // navigation/main C #2.001.00 }}
+
+
+{{!
+
+USEAGE:
+
+Component contains a image with full width. You should not mix fullwidth slider components with 50/50 components
+navpoint_name must match pageid
+
+JSON USEAGE:
+
+ "main_nav": {
+        "optional_classes": "",
+        "logo_url": "/sites/g/files/zhg146/f/moddevo/images_moddevo/moddevo-logo.jpg",
+        "logo_alt": "Moddevo",
+        "navpoints": [
+            {
+                "navpoint_title": "Übersicht",
+                "navpoint_url": "/produkte/getreide-moddevo-uebersicht",
+                "navpoint_dev_url": "/index.html",
+                "navpoint_name": "index"
+            },
+            {
+                "navpoint_title": "Leistung",
+                "navpoint_url": "/produkte/getreide-moddevo-leistung",
+                "navpoint_dev_url": "/leistung.html",
+                "navpoint_name": "leistung"
+            },
+            {
+                "navpoint_title": "Formulierung",
+                "navpoint_url": "/produkte/getreide-moddevo-formulierung",
+                "navpoint_dev_url": "/formulierung.html",
+                "navpoint_name": "formulierung"
+            },
+            {
+                "navpoint_title": "Produktprofil",
+                "navpoint_url": "/produkte/getreide-moddevo-produktprofil",
+                "navpoint_dev_url": "/produktprofil.html",
+                "navpoint_name": "produktprofil"
+            },
+            {
+                "navpoint_title": "Anwendung",
+                "navpoint_url": "/produkte/getreide-moddevo-anwendung",
+                "navpoint_dev_url": "/anwendung.html",
+                "navpoint_name": "anwendung"
+            }
+        ],
+        "swipernavpoints": [
+            {
+                "navpoint_title": "Produktprofil",
+                "navpoint_url": "/produkte/getreide-moddevo-produktprofil",
+                "navpoint_dev_url": "/produktprofil.html",
+                "navpoint_name": "produktprofil"
+            },
+            {
+                "navpoint_title": "Anwendung",
+                "navpoint_url": "/produkte/getreide-moddevo-anwendung",
+                "navpoint_dev_url": "/anwendung.html",
+                "navpoint_name": "anwendung"
+            }
+        ]
+    }
+
+
+}}

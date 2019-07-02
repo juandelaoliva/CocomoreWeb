@@ -1,0 +1,43 @@
+{
+    "pageID": "example-page",
+    "pageTitle": "Example Page",
+    "sections": [
+        {
+            "id": "section0",
+            "optional_classes": "",
+            "container": "false",
+            "type": "content-headline-primary",
+            "content": {
+                "title_main": "Example Page 1",
+                "title_sub": "Lorem Ipsum dolor.",
+                "title_icon": "page-1"
+            }
+        },
+        {
+            "id": "section1",
+            "optional_classes": "",
+            "container": "false",
+            "type": "content-text-imagetext",
+            "content": {
+               "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel ipsum neque. Aenean efficitur vitae est ut hendrerit. Fusce convallis dolor ac quam vestibulum pharetra. Curabitur nec mollis velit, in auctor nunc. Duis arcu quam, malesuada sed mauris quis, faucibus dignissim nisi. Duis ipsum ipsum, suscipit ac odio in, pharetra congue magna. Sed pharetra semper tortor eu eleifend.",
+                "bullettitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Duis ipsum ipsum, suscipit ac odio in, pharetra congue magna. Sed pharetra semper tortor eu eleifend.",
+                "bulletpoints": [
+                    {
+                        "bulletpoint_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletpoint_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletpoint_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    }
+                ],
+                "bracket_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "image_path": "https://dummyimage.com/800x800/d6d6d6/fff.png",
+                "image_alt": "Lorem ipsum.",
+                "image_shadow": false,
+                "image_caption":"Lorem Ipsum"
+            }
+        }
+    ]
+}

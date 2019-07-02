@@ -1,0 +1,19 @@
+<section class="content-text-fullwidth {{#if content.optional_classes}}{{content.optional_classes}}{{/if}}">
+    <p>{{{content.text}}}</p>
+</section>
+
+{{!
+
+JSON USAGE:
+
+{
+    "id": "section1",
+    "optional_classes": "",
+    "container": "false",
+    "type": "content-text-fullwidth",
+    "content": {
+         "text": "Lorem ipsum dolor sit amet, <br />consectetur adipiscing elit. <strong>Sed pretium est egestas</strong>, faucibus dolor id, venenatis elit."
+    }
+}
+
+}}

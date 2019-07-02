@@ -1,0 +1,9 @@
+<section class="flexslider {{#if optional_classes}}{{optional_classes}}{{/if}}" {{#if id}}id="{{id}}"{{/if}}>
+    <ul class="slides">
+        {{#each content.slides}}
+            <li>
+                <img src="{{this.image_url}}">
+            </li>
+        {{/each}}
+    </ul>
+</section>

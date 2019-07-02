@@ -1,0 +1,33 @@
+<section class="content-text-bullet {{#if optional_classes}}{{optional_classes}} {{/if}}">
+    {{#if title}}<span>{{{title}}}</span> {{/if}}
+    <ul class="list-bulletpoints">
+        {{#each bulletpoints}}
+            <li>{{{this.bulletpoint_text}}}</li>
+        {{/each}}
+    </ul>
+</section>
+
+{{!
+
+JSON USAGE:
+{
+    "indexcontent_type": "content-text-bullet",
+    "title": "Cras justo mauris, dapibus quis semper nec, sollicitudin quis elit.",
+    "bulletpoints": [
+        {
+            "bulletpoint_text": "<a href='#'>Etiam</a> dapibus quam vitae eros tempor cursus."
+        },
+        {
+            "bulletpoint_text": "nibh turpis malesuada <a href='#'>odio</a>, vel fringilla odio lacus ac lacus."
+        },
+        {
+            "bulletpoint_text": "<a href='#'>Etiam</a> dapibus quam vitae eros tempor cursus."
+        },
+        {
+            "bulletpoint_text": "nibh turpis malesuada <a href='#'>odio</a>, vel fringilla odio lacus ac lacus."
+        }
+    ]
+}
+
+
+}}

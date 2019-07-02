@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/**
+ *
+ * Commonly Needed Styles (SCSS/SASS)
+ *
+ */
+@import "variables/**/*";
+@import "base/breakpoints";
+@import "base/reset";
+@import "base/grid";
+@import "base/utility";
+@import "base/typography";
+@import "base/layout";
+@import "components/**/*";
+@import "partials/**/*";
+
+/** FlexSlider2 */
+@import "third-party/flexslider/flexslider";

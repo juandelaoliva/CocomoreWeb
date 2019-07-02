@@ -1,0 +1,65 @@
+{
+  "isdevelop": true,
+  "head": {
+    "metatags": [
+      "<meta charset=\"UTF-8\">",
+      "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">"
+    ],
+    "js": [
+      "<script src=\"https://code.jquery.com/jquery-3.4.1.min.js\" integrity=\"sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=\" crossorigin=\"anonymous\"></script>",
+      "<script src=\"https://code.jquery.com/ui/1.12.1/jquery-ui.min.js\" crossorigin=\"anonymous\"></script>",
+      "<script src=\"js/cocomore_customs.js\"></script>"
+    ],
+    "css": [
+      "<link rel=\"stylesheet\" href=\"https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css\">",
+      "<link rel=\"stylesheet\" href=\"css/style.css\">"
+    ]
+  },
+  "main_nav": {
+    "optional_classes": "",
+    "logo_url": "images/demo/generic-logo.svg",
+    "logo_url_alt1": "demo-logo",
+    "logo_url_alt2": "demo-logo",
+    "logo_alt": "demo-logo",
+    "logo_alt1": "demo-logo",
+    "logo_alt2": "demo-logo",
+    "navpoints": [
+      {
+        "navpoint_title": "Home",
+        "navpoint_url": "/index.html",
+        "navpoint_dev_url": "./index.html",
+        "navpoint_name": "index"
+      },
+      {
+        "navpoint_title": "Example1",
+        "navpoint_url": "/example-page.html",
+        "navpoint_dev_url": "./example-page.html",
+        "navpoint_name": "example-page"
+      },
+      {
+        "navpoint_title": "Example2",
+        "navpoint_url": "/example-page-2.html",
+        "navpoint_dev_url": "./example-page-2.html",
+        "navpoint_name": "example-page-2"
+      },
+      {
+        "navpoint_title": "Web Development",
+        "navpoint_url": "/index.html",
+        "navpoint_dev_url": "./index.html",
+        "navpoint_name": "index"
+      },
+      {
+        "navpoint_title": "FlexSlider 2 example",
+        "navpoint_url": "/example-flexslider.html",
+        "navpoint_dev_url": "./example-flexslider.html",
+        "navpoint_name": "example-flexslider"
+      },
+      {
+        "navpoint_title": "jQuery UI Accordion example",
+        "navpoint_url": "/example-accordion.html",
+        "navpoint_dev_url": "./example-accordion.html",
+        "navpoint_name": "example-accordion"
+      }
+    ]
+  }
+}

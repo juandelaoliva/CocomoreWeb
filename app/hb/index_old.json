@@ -1,0 +1,69 @@
+{
+  "pageID": "index",
+  "pageTitle": "Cocomore | NewPage",
+  "sections": [
+    {
+      "id": "content-headline-primary",
+      "optional_classes": "",
+      "type": "content-headline-primary",
+      "content": {
+        "title_main": "My New Page",
+        "title_sub": "Learning handlebars and gulp.",
+        "title_icon": "page-1"
+      }
+    },
+    {
+      "id": "section1",
+      "optional_classes": "",
+      "type": "content-image-fullwidth",
+      "content": {
+        "image_path": "https://dummyimage.com/1600x300/d6d6d6/fff.png",
+        "image_alt": "Lorem ipsum."
+      }
+    },
+    {
+      "id": "section2",
+      "optional_classes": "",
+      "type": "content-text-fullwidth",
+      "content": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel ipsum neque. Aenean efficitur vitae est ut hendrerit. Fusce convallis dolor ac quam vestibulum pharetra. Curabitur nec mollis velit, in auctor nunc. Duis arcu quam, malesuada sed mauris quis, faucibus dignissim nisi. Duis ipsum ipsum, suscipit ac odio in, pharetra congue magna. Sed pharetra semper tortor eu eleifend.Aliquam molestie odio vitae tincidunt viverra. Pellentesque a odio congue, aliquam est eu, pulvinar nisi. Nulla nec pulvinar urna. Vestibulum auctor ligula id neque dignissim, quis pellentesque ante condimentum. Maecenas sed justo a risus dapibus dignissim sed id diam. Curabitur nec mattis quam. Proin tincidunt non nulla at bibendum. Morbi nec commodo sem. Nam fermentum fringilla lectus, vel congue dui venenatis at."
+      }
+    },
+    {
+      "id": "section3",
+      "optional_classes": "",
+      "type": "content-text-bullet",
+      "title": "Cras justo mauris, dapibus quis semper nec, sollicitudin quis elit.",
+      "bulletpoints": [
+        {
+          "bulletpoint_text": "<a href='#'>Etiam</a> dapibus quam vitae eros tempor cursus."
+        },
+        {
+          "bulletpoint_text": "nibh turpis malesuada <a href='#'>odio</a>, vel fringilla odio lacus ac lacus."
+        },
+        {
+          "bulletpoint_text": "<a href='#'>Etiam</a> dapibus quam vitae eros tempor cursus."
+        },
+        {
+          "bulletpoint_text": "nibh turpis malesuada <a href='#'>odio</a>, vel fringilla odio lacus ac lacus."
+        }
+      ]
+    },
+    {
+      "id": "section4",
+      "optional_classes": "",
+      "type": "content-text-fullwidth",
+      "content": {
+        "text": "Nam a lectus vel nunc pharetra fermentum sed non tortor. Proin dignissim elit vitae massa molestie fringilla. Morbi efficitur lectus a odio ullamcorper, non blandit nisl congue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel ipsum neque. Aenean efficitur vitae est ut hendrerit. Fusce convallis dolor ac quam vestibulum pharetra. Curabitur nec mollis velit, in auctor nunc. Duis arcu quam, malesuada sed mauris quis, faucibus dignissim nisi. Duis ipsum ipsum, suscipit ac odio in, pharetra congue magna. Sed pharetra semper tortor eu eleifend.Aliquam molestie odio vitae tincidunt viverra. Pellentesque a odio congue, aliquam est eu, pulvinar nisi. Nulla nec pulvinar urna. Vestibulum auctor ligula id neque dignissim, quis pellentesque ante condimentum. Maecenas sed justo a risus dapibus dignissim sed id diam. Curabitur nec mattis quam. Proin tincidunt non nulla at bibendum. Morbi nec commodo sem. Nam fermentum fringilla lectus, vel congue dui venenatis at. Nam a lectus vel nunc pharetra fermentum sed non tortor. Proin dignissim elit vitae massa molestie fringilla. Morbi efficitur lectus a odio ullamcorper, non blandit nisl congue."
+      }
+    },
+    {
+      "id": "section5",
+      "optional_classes": "",
+      "type": "content-text-fullwidth",
+      "content": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel ipsum neque. Aenean efficitur vitae est ut hendrerit. Fusce convallis dolor ac quam vestibulum pharetra. Curabitur nec mollis velit, in auctor nunc. Duis arcu quam, malesuada sed mauris quis, faucibus dignissim nisi. Duis ipsum ipsum, suscipit ac odio in, pharetra congue magna. Sed pharetra semper tortor eu eleifend.Aliquam molestie odio vitae tincidunt viverra. Pellentesque a odio congue, aliquam est eu, pulvinar nisi. Nulla nec pulvinar urna."
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "pageID": "example-accordion",
+  "pageTitle": "Example jQuery UI Accordion",
+  "sections": [
+    {
+      "id": "example-accordion_content-headline-primary",
+      "optional_classes": "",
+      "type": "content-headline-primary",
+      "content": {
+        "title_main": "jQuery UI Accordion example",
+        "title_sub": "A demo of jQuery UI Accordion",
+        "title_icon": "example-accordion_content-headline-primary"
+      }
+    },
+    {
+      "id": "example-flexslider_content-flexslider",
+      "optional_classes": "",
+      "type": "content-accordion-jqueryui",
+      "content": {
+        "accordion_sections": [
+          {
+            "header": "Section #1",
+            "content": "<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer</p>"
+          },
+          {
+            "header": "Section #2",
+            "content": "<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer</p>"
+          },
+          {
+            "header": "Section #3",
+            "content": "<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer</p>"
+          }
+        ]
+      }
+    }
+  ]
+}

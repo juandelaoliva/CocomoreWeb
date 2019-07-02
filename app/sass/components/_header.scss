@@ -1,0 +1,19 @@
+.header {
+    @include clearfix();
+
+    background: transparent;
+    position: relative;
+    border-top: 10px solid $cocomoreGreen;
+
+    .logo {
+        max-width: 240px;
+        height: auto;
+        margin: 6px 6px 0px 0;
+        float: left;
+    }
+
+    nav {
+        float: right;
+        margin-top: 30px;
+    }
+}

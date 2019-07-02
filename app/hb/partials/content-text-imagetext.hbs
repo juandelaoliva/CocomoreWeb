@@ -1,0 +1,55 @@
+<section class="content-text-imagetext {{#if content.optional_classes}}{{content.optional_classes}}{{/if}}">
+    <div class="textblock-text">
+        {{#if content.opt_title}}<h3>{{{content.opt_title}}}</h3>{{/if}}
+        <p>{{{content.text}}}</p>
+
+        {{#if content.bullettitle}}<span>{{{content.bullettitle}}}</span> {{/if}}
+        {{#if content.bulletpoints}}
+            <ul class="list-bulletpoints">
+                {{#each content.bulletpoints}}
+                    <li>{{{this.bulletpoint_text}}}</li>
+                {{/each}}
+            </ul>
+        {{/if}}
+
+    </div>
+    <div class="textblock-image">
+        <img src="{{img_url content.image_path}}"
+             alt="{{content.image_alt}}" {{#ifCond content.image_shadow '==' false}}class="no-shadow"{{/ifCond}}/>
+        {{#if content.image_caption}}<figcaption>{{{content.image_caption}}}</figcaption>{{/if}}
+    </div>
+</section>
+
+
+{{!
+
+JSON USAGE:
+
+{
+    "id": "section1",
+    "optional_classes": "",
+    "container": "false",
+    "type": "content-text-imagetext",
+    "content": {
+       "text": "Phasellus tristique purus vitae neque feugiat, eget aliquet sem varius. Ut massa est, dictum non maximus eu, porttitor eu orci. Sed semper ante lobortis cursus rhoncus. In ligula nisi, dignissim nec elit ac, efficitur ultricies velit. Vestibulum in ultricies nisi, ut molestie augue.",
+        "bullettitle": "Vestibulum sit amet turpis aliquam, bibendum massa a, dapibus quam:",
+        "bulletpoints": [
+            {
+                "bulletpoint_text": "Morbi blandit pharetra est"
+            },
+            {
+                "bulletpoint_text": "Quisque ligula nunc, aliquet ut mattis quis"
+            },
+            {
+                "bulletpoint_text": "Maecenas quis posuere nisl"
+            }
+        ]
+        "bracket_text": "Vestibulum quis risus vel leo fringilla lobortis.",
+        "image_path": "https://dummyimage.com/543x546/d6d6d6/fff.png",
+        "image_alt": "Lorem ipsum.",
+        "image_shadow": false,
+        "image_caption":"Lorem Ipsum"
+    }
+}
+
+}}

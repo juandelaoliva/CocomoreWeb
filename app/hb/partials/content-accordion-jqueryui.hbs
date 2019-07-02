@@ -1,0 +1,8 @@
+<section class="content-accordion-jqueryui {{#if optional_classes}}{{optional_classes}}{{/if}}" {{#if id}}id="{{id}}"{{/if}}>
+        {{#each content.accordion_sections}}
+            <h3>{{header}}</h3>
+            <div>
+                {{{content}}}
+            </div>
+        {{/each}}
+</section>

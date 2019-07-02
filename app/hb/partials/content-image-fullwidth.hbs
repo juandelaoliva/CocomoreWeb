@@ -1,0 +1,22 @@
+<section class="content-image-fullwidth {{#if content.optional_classes}}{{content.optional_classes}}{{/if}}">
+    <img src="{{img_url content.image_path}}" alt="{{content.image_alt}}" {{#ifCond content.image_shadow '==' false}}class="no-shadow"{{/ifCond}}/>
+</section>
+
+{{!
+
+JSON USAGE:
+
+
+{
+    "id": "section1",
+    "optional_classes": "",
+    "container": "false",
+    "type": "content-image-fullwidth",
+    "content": {
+        "image_path": "https://dummyimage.com/1140x286/d6d6d6/fff.png",
+        "image_alt": "Lorem ipsum.",
+        "image_shadow": false
+    }
+}
+
+}}
